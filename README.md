@@ -20,7 +20,7 @@ The purpose of this project is to analyze the COVID-19 data from January 2021 re
 
 We hope to use Python Pandas to clean the data, as well as Javascript Plotly to visually graph out the data.  For machine learning, we plan on utilizing Scikit-Learn. 
 
-<h4>Dataset Sources</h4>
+<h4>Dataset Sources:</h4>
 <ul>
 <li>The COVID Tracking Project | The COVID Tracking Project
 Includes data on current hospitalizations, total cases, total test results, and total deaths.
