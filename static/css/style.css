@@ -1,0 +1,46 @@
+/* Style the links inside the sidenav */
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    left: -100px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 150px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: rgb(255, 255, 255); /* White text color */
+    border-radius: 0 10px 10px 0; /* Rounded corners on the top right and bottom right side */
+  }
+  
+  #mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+  }
+  
+  /* The about link: 20px from the top with a green background */
+  
+  #Home {
+    top: 100px;
+    background-color: #e38dff; /* Blue */
+  }
+  
+  #Data {
+    top: 200px;
+    background-color: #ff7d7d; /* Red */
+  }
+  
+  #Github{
+    top: 300px;
+    background-color: rgb(254, 173, 98) /* Light Black */
+  }
+
+  .sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(145, 145, 145);
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
