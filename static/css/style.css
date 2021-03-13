@@ -1,10 +1,100 @@
 /* Style the links inside the sidenav */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: rgb(108, 240, 255);
+  text-align:center;
+  line-height: 1.6;
+}
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-background-clip: rgb(255, 255, 255)
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+.main {
+  margin-left: 160px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 10px 30px;
+}
+
+#viz1615599056556{
+  margin-left: 10px; 
+
+  position: absolute;
+  left: 1435px; 
+  top: -800px;
+}
+#viz1615589999966{
+  margin-left: 50px; 
+  border: 2px solid rgb(0, 0, 0);
+  width: 800px; 
+  height: 1000px;
+  bottom: -100px;
+}
+
+#viz1615596743434{
+  margin-left: 160px; 
+  border: 15px solid powderblue;
+
+  width: 800px; 
+  height: 1000px;
+}
+
+#viz1615608834177{
+    position: absolute;
+    top: -400px;
+  }
+
+
+.container-fluid{
+  background-color: rgb(108, 108, 108) ;
+  padding: 10px;
+  margin: 10px;
+
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+
 #mySidenav a {
     position: absolute; /* Position them relative to the browser window */
     left: -100px; /* Position them outside of the screen */
     transition: 0.3s; /* Add transition on hover */
     padding: 15px; /* 15px padding */
-    width: 150px; /* Set a specific width */
+    width: 130px; /* Set a specific width */
     text-decoration: none; /* Remove underline */
     font-size: 20px; /* Increase font size */
     color: rgb(255, 255, 255); /* White text color */
@@ -18,17 +108,17 @@
   /* The about link: 20px from the top with a green background */
   
   #Home {
-    top: 100px;
+    top: 200px;
     background-color: #e38dff; /* Blue */
   }
   
   #Data {
-    top: 200px;
+    top: 300px;
     background-color: #ff7d7d; /* Red */
   }
   
   #Github{
-    top: 300px;
+    top: 400px;
     background-color: rgb(254, 173, 98) /* Light Black */
   }
 
@@ -39,8 +129,29 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(145, 145, 145);
+    background-color: rgb(159, 159, 159);
     overflow-x: hidden;
     padding-top: 20px;
+    padding-left: 5px;
   }
   
+  .object{
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 10;
+    padding-top: 20px;
+  }
+  .wrapper{
+    display: grid;
+    grid-template-columns: 70% 30%;
+  }
+
+  .wrapper > div{
+    background: rgb(255, 229, 255);
+    padding: 1em;
+
+  }
