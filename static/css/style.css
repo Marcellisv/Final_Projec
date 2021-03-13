@@ -49,28 +49,26 @@ html {
   padding: 10px 30px;
 }
 
-#viz1615599056556{
-  margin-left: 10px; 
-
-  position: absolute;
-  left: 1435px; 
-  top: -800px;
+#viz1615646596661{
+  margin-left: 50px; 
+  top: 30px; 
+  
 }
-#viz1615589999966{
+#viz1615646646848{
+  margin-left: 1460px; 
+  width: 800px; 
+  top: -800px;
+  height: 1000px;
+
+}#viz1615646660028{
   margin-left: 50px; 
   border: 2px solid rgb(0, 0, 0);
   width: 800px; 
   height: 1000px;
-  bottom: -100px;
+  top: -400px;
 }
 
-#viz1615596743434{
-  margin-left: 160px; 
-  border: 15px solid powderblue;
 
-  width: 800px; 
-  height: 1000px;
-}
 
 #viz1615608834177{
     position: absolute;
