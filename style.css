@@ -46,7 +46,7 @@ body {
   position: absolute;
   grid-area: Line-chart;
   margin-left: 400px; 
-  bottom: -1000px;
+  bottom: -800px;
 
 }
 .container-fluid{
@@ -62,7 +62,7 @@ body {
   position: absolute;
   grid-area: Line-chart;
   margin-left: 700px; 
-  bottom: -1300px;
+  bottom: -1100px;
   background-color: white;
 }
 
