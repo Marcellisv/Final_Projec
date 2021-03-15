@@ -45,7 +45,7 @@ body {
   float: left;
   position: absolute;
   grid-area: Line-chart;
-  margin-left: 460px; 
+  margin-left: 400px; 
   bottom: -1000px;
 
 }
@@ -57,13 +57,13 @@ body {
   display: inline-block;
   vertical-align: top;
 }
-.p{
+.box{
 
   position: absolute;
   grid-area: Line-chart;
-  margin-left: 460px; 
-  bottom: -1000px;
-
+  margin-left: 700px; 
+  bottom: -1300px;
+  background-color: white;
 }
 
 
