@@ -35,7 +35,7 @@
               <div class="row">
                   <div class="col">
                   <h5 class="card-title text-uppercase text-muted mb-0">Total Vacinations Administered in the United States Since 01/12/2021</h5>
-                  <span id="daily_confirmed_label" class="h2 font-weight-bold mb-0">{% for data in vaccines}</span>
+                  <span id="daily_confirmed_label" class="h2 font-weight-bold mb-0">64071674</span>
                   </div>
                   <div class="col-auto">
                   <div class="icon icon-shape bg-primary text-white rounded-circle shadow">
@@ -51,8 +51,8 @@
               <div class="card-body ">
               <div class="row">
                   <div class="col">
-                  <h5 class="card-title text-uppercase text-muted mb-0">Total Cases In the US Since the First Vaccination</h5>
-                  <span id="daily_deaths_label" class="h2 font-weight-bold mb-0">{% for data in cases}</span>
+                  <h5 class="card-title text-uppercase text-muted mb-0">New Cases</h5>
+                  <span id="daily_deaths_label" class="h2 font-weight-bold mb-0">60678</span>
                   </div>
                   <div class="col-auto">
                   <div class="icon icon-shape bg-danger text-white rounded-circle shadow">
@@ -68,8 +68,8 @@
               <div class="card-body ">
               <div class="row">
                   <div class="col">
-                  <h5 class="card-title text-uppercase text-muted mb-0">Total Cases In the US Since the First Vaccination</h5>
-                  <span id="daily_death_rate_label" class="h2 font-weight-bold mb-0">{render_field()}</span>
+                  <h5 class="card-title text-uppercase text-muted mb-0">New Deaths</h5>
+                  <span id="daily_death_rate_label" class="h2 font-weight-bold mb-0">1572</span>
                   </div>
                   <div class="col-auto">
                   <div class="icon icon-shape bg-warning text-white rounded-circle shadow">
@@ -84,24 +84,14 @@
       </div>
   </div>
 </div>
-    <title>Data</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  </head>
-  <body>
-  
-  <div class="container">
-    <h2 class="heading">Data</h2>
-    <p>The following table contains the data used for plotting during this project:</p>            
-    <table class="table table-striped">
-  <hr>
-  z
-<table border="1" class="dataframe">
+<boody>
+    <div class="container">
+        <h1 class="heading">Covid Data By State</h1>
+        <table class="table table-striped">
+      <hr>
+
   <thead>
-    <tr style="text-align: right;">
+    <tr >
       <th>date</th>
       <th>state</th>
       <th>death</th>
@@ -54185,3 +54175,4 @@
     </tr>
   </tbody>
 </table>
+</boody>

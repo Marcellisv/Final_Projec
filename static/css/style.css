@@ -1,63 +1,28 @@
 /* Style the links inside the sidenav */
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
 body {
   font-family: 'Lato', sans-serif;
   color: rgb(108, 240, 255);
   text-align:center;
   line-height: 1.6;
 }
-html {
-  font-family: sans-serif;
-  line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-background-clip: rgb(255, 255, 255)
-}
-@media (min-width: 576px) {
-  .container {
-    max-width: 540px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 720px;
-  }
-}
-
-@media (min-width: 992px) {
-  .container {
-    max-width: 960px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1140px;
-  }
-}
-
 .main {
+  
   margin-left: 160px; /* Same width as the sidebar + left position in px */
   font-size: 28px; /* Increased text to enable scrolling */
   padding: 10px 30px;
 }
 
-#viz1615646596661{
+#viz1615840356110{
+  grid-area: 1 / 2 / 4 / 5;
   margin-left: 50px; 
-  top: 30px; 
+  top: 100px; 
   
 }
 #viz1615646646848{
-  margin-left: 1460px; 
-  width: 800px; 
-  top: -800px;
+  margin-left: 1350px; 
+  width: 1300px; 
+  top: -1100px;
   height: 1000px;
 
 }#viz1615646660028{
@@ -65,7 +30,7 @@ html {
   border: 2px solid rgb(0, 0, 0);
   width: 800px; 
   height: 1000px;
-  top: -400px;
+  top: -800px;
 }
 
 
@@ -75,7 +40,16 @@ html {
     top: -400px;
   }
 
+#Prediction 
+{
+  float: left;
+  position: absolute;
+  grid-area: Line-chart;
+  margin-left: 1460px; 
+  width: 1000px;
+  height: 800px;
 
+}
 .container-fluid{
   background-color: rgb(108, 108, 108) ;
   padding: 10px;
@@ -110,13 +84,8 @@ html {
     background-color: #e38dff; /* Blue */
   }
   
-  #Data {
-    top: 300px;
-    background-color: #ff7d7d; /* Red */
-  }
-  
   #Github{
-    top: 400px;
+    top: 350px;
     background-color: rgb(254, 173, 98) /* Light Black */
   }
 
@@ -142,14 +111,4 @@ html {
     left: 0;
     right: 10;
     padding-top: 20px;
-  }
-  .wrapper{
-    display: grid;
-    grid-template-columns: 70% 30%;
-  }
-
-  .wrapper > div{
-    background: rgb(255, 229, 255);
-    padding: 1em;
-
   }
