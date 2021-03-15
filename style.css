@@ -40,14 +40,13 @@ body {
     top: -400px;
   }
 
-#Prediction 
+#prediction
 {
   float: left;
   position: absolute;
   grid-area: Line-chart;
-  margin-left: 1460px; 
-  width: 1000px;
-  height: 800px;
+  margin-left: 460px; 
+  bottom: -1000px;
 
 }
 .container-fluid{
@@ -58,7 +57,14 @@ body {
   display: inline-block;
   vertical-align: top;
 }
+.p{
 
+  position: absolute;
+  grid-area: Line-chart;
+  margin-left: 460px; 
+  bottom: -1000px;
+
+}
 
 
 #mySidenav a {
